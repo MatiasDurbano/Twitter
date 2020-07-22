@@ -1,4 +1,4 @@
-package com.Twitter;
+package com.twitter;
 
 
 import java.util.ArrayList;

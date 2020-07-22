@@ -1,4 +1,4 @@
-package com.Properties;
+package com.properties;
 
 public class DataConfig {
 	

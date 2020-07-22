@@ -1,8 +1,8 @@
-package com.Twitter;
+package com.twitter;
 import java.util.List;
 
-import com.Interfaces.Network;
-import com.Properties.PropertiesLoader;
+import com.interfaces.Network;
+import com.properties.PropertiesLoader;
 
 public class TwitterNetworkImpl implements Network {
 	

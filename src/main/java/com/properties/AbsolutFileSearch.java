@@ -1,4 +1,4 @@
-package com.Properties;
+package com.properties;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

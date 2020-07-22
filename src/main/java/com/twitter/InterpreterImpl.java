@@ -1,9 +1,9 @@
-package com.Twitter;
+package com.twitter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.Interfaces.Interpreter;
+import com.interfaces.Interpreter;
 
 import twitter4j.Status;
 

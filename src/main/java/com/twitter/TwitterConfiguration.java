@@ -1,7 +1,7 @@
-package com.Twitter;
+package com.twitter;
 
-import com.Properties.DataConfig;
-import com.Properties.PropertiesLoader;
+import com.properties.DataConfig;
+import com.properties.PropertiesLoader;
 
 import twitter4j.Twitter;
 
