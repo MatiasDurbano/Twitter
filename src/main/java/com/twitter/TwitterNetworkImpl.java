@@ -6,11 +6,11 @@ import com.properties.PropertiesLoader;
 
 public class TwitterNetworkImpl implements Network {
 	
-	private TwitterApi twitter;
+	private TwitterController twitter;
 	private InterpreterImpl interpreter;
 	
 	public TwitterNetworkImpl(){;
-		this.twitter = new TwitterApi(new TwitterConfiguration(new PropertiesLoader()));
+		this.twitter = new TwitterController(new TwitterConfiguration(new PropertiesLoader()));
 		interpreter= new InterpreterImpl();
 	}
 	

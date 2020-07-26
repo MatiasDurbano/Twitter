@@ -8,12 +8,12 @@ import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 
-public class TwitterApi {
+public class TwitterController {
 	private TwitterConfiguration configuration;
 	private Twitter twitter;
 	
 	
-	public TwitterApi(TwitterConfiguration arg0) {
+	public TwitterController(TwitterConfiguration arg0) {
 		configuration = arg0;
 		twitter= configuration.getTwitter();
 
